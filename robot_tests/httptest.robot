@@ -2,6 +2,7 @@
 Documentation    Simple demonstration of HttpLibrary.HTTP Library tests
 Library  HttpLibrary.HTTP
 
+*** Variables ***
 ${URL}    http://cpdemoapp-staging.us-east-1.elasticbeanstalk.com/
 
 *** Test Cases ***
