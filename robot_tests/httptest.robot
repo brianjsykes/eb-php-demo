@@ -3,7 +3,7 @@ Documentation    Simple demonstration of HttpLibrary.HTTP Library tests
 Library  HttpLibrary.HTTP
 
 *** Variables ***
-${URL}    cpdemoapp-staging.us-east-1.elasticbeanstalk.com
+${URL}    phpdemo-env.us-east-1.elasticbeanstalk.com
 
 *** Test Cases ***
 get request test
