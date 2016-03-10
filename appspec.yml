@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+ - source: /www
+   destination: /var/www/html
+
+hooks:
+  BeforeInstall:
+    - location: scripts/webserver-stop.sh
+    - location: scripts/clean-webdir.sh
+  AfterInstall:
+    - location: scripts/sleep.sh
+    - location: scripts/webserver-start.sh
